@@ -1,0 +1,143 @@
+{
+  "patients": [
+    {
+      "patient_id": "TEST-1234",
+      "full_name": "Aarav Sharma",
+      "age": 30
+    },
+    {
+      "patient_id": "HT-2026-1XP-P1VM",
+      "phone_number": "+91 9999988888",
+      "first_name": "John",
+      "last_name": "Doe",
+      "full_name": "John Doe",
+      "email": null,
+      "age": 25,
+      "gender": "Male",
+      "blood_group": "O+",
+      "chronic_diseases": [],
+      "consent_given": true,
+      "permissions_granted": [],
+      "created_at": "2026-07-22T03:52:53.070296"
+    },
+    {
+      "patient_id": "HT-2026-5RS-NBL6"
+    },
+    {
+      "patient_id": "HT-2026-33S-VUZ9",
+      "phone_number": "+91 8765432109",
+      "first_name": "Rohan",
+      "last_name": "Mistry",
+      "full_name": "Rohan Mistry",
+      "email": "romiyo69@gmain.com",
+      "age": 41,
+      "gender": "Male",
+      "blood_group": "AB+",
+      "chronic_diseases": [
+        "Sleep Apnea",
+        "Atrial Fibrillation"
+      ],
+      "consent_given": true,
+      "permissions_granted": [
+        "Camera",
+        "Storage / Files & Media",
+        "Microphone",
+        "Bluetooth / Nearby Devices"
+      ],
+      "created_at": "2026-07-22T07:23:22.578141"
+    },
+    {
+      "patient_id": "HT-2026-X89K-L",
+      "medical_reports": [
+        {
+          "patient_id": "HT-2026-X89K-L",
+          "file_name": "mock_discharge_summary.pdf",
+          "systemic_category": "CARDIOVASCULAR",
+          "report_type": "Discharge Summary",
+          "report_date": "2026-07-22",
+          "redaction_summary": {
+            "redactions_count": 2,
+            "redaction_types": [
+              "PHONE",
+              "NAME"
+            ]
+          },
+          "key_findings": [
+            "Presenting Complaint",
+            "Patient presented to the emergency department with complaints of intermittent chest discomfort radiating to",
+            "within normal limits. Chest discomfort attributed to musculoskeletal strain, likely non-cardiac in origin.",
+            "Treatment Given",
+            "500mg was prescribed as needed for musculoskeletal discomfort. Patient was monitored for 4 days with"
+          ],
+          "lab_vitals": [
+            {
+              "metric": "Heart Rate / Pulse",
+              "value": "88",
+              "unit": "bpm",
+              "status": "Normal"
+            },
+            {
+              "metric": "Oxygen Saturation (SpO2)",
+              "value": "97",
+              "unit": "%",
+              "status": "Normal"
+            },
+            {
+              "metric": "Body Temperature",
+              "value": "98.9",
+              "unit": "°F",
+              "status": "Normal"
+            }
+          ],
+          "clinical_summary": "This discharge summary has been analyzed and anonymized locally. Recorded vital metrics include Heart Rate / Pulse: 88 bpm, Oxygen Saturation (SpO2): 97 %, Body Temperature: 98.9 °F. Key observations: Presenting Complaint All personal health identification credentials have been redacted for privacy.",
+          "uploaded_at": "2026-07-22T07:23:54.990274"
+        }
+      ]
+    }
+  ],
+  "medical_reports": [
+    {
+      "patient_id": "HT-2026-X89K-L",
+      "file_name": "mock_discharge_summary.pdf",
+      "systemic_category": "CARDIOVASCULAR",
+      "report_type": "Discharge Summary",
+      "report_date": "2026-07-22",
+      "redaction_summary": {
+        "redactions_count": 2,
+        "redaction_types": [
+          "PHONE",
+          "NAME"
+        ]
+      },
+      "key_findings": [
+        "Presenting Complaint",
+        "Patient presented to the emergency department with complaints of intermittent chest discomfort radiating to",
+        "within normal limits. Chest discomfort attributed to musculoskeletal strain, likely non-cardiac in origin.",
+        "Treatment Given",
+        "500mg was prescribed as needed for musculoskeletal discomfort. Patient was monitored for 4 days with"
+      ],
+      "lab_vitals": [
+        {
+          "metric": "Heart Rate / Pulse",
+          "value": "88",
+          "unit": "bpm",
+          "status": "Normal"
+        },
+        {
+          "metric": "Oxygen Saturation (SpO2)",
+          "value": "97",
+          "unit": "%",
+          "status": "Normal"
+        },
+        {
+          "metric": "Body Temperature",
+          "value": "98.9",
+          "unit": "°F",
+          "status": "Normal"
+        }
+      ],
+      "clinical_summary": "This discharge summary has been analyzed and anonymized locally. Recorded vital metrics include Heart Rate / Pulse: 88 bpm, Oxygen Saturation (SpO2): 97 %, Body Temperature: 98.9 °F. Key observations: Presenting Complaint All personal health identification credentials have been redacted for privacy.",
+      "uploaded_at": "2026-07-22T07:23:54.990274"
+    }
+  ]
+}
